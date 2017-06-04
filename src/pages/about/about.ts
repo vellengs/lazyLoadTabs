@@ -1,14 +1,12 @@
 import { Component } from '@angular/core';
-import { NavController, IonicPage } from 'ionic-angular';
+import { IonicPage } from 'ionic-angular';
+import { ListPageComponent } from "../../components/list-page/list-page";
+
 @IonicPage()
 @Component({
   selector: 'page-about',
   templateUrl: 'about.html'
 })
-export class AboutPage {
-
-  constructor(public navCtrl: NavController) {
-
-  }
+export class AboutPage extends ListPageComponent {
 
 }
